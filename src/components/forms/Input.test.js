@@ -31,7 +31,7 @@ describe("Input", () => {
   test("renders input with label", () => {
     renderComponent();
 
-    screen.debug();
+    // screen.debug();
     const label = screen.getByText(/email/i);
     const input = screen.getByLabelText(/email/i);
 

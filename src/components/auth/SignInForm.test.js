@@ -32,7 +32,7 @@ describe("SignInForm", () => {
     const buttonSubimit = screen.getByRole("button");
     const signUpButton = screen.getByRole("link");
 
-    screen.debug();
+    // screen.debug();
 
     expect(emailInput).toBeInTheDocument();
     expect(passwordInput).toBeInTheDocument();
